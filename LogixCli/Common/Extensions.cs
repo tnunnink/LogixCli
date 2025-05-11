@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace L5Shell.Console.Common;
+namespace LogixCli.Common;
 
 public static class Extensions
 {

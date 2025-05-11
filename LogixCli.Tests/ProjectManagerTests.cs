@@ -1,8 +1,8 @@
-﻿using FluentAssertions;
-using L5Shell.Console.Services;
+﻿using LogixCli.Services;
+using NUnit.Framework.Legacy;
 using Spectre.Console.Testing;
 
-namespace L5Shell.Tests;
+namespace LogixCli.Tests;
 
 [TestFixture]
 public class ProjectManagerTests
@@ -26,7 +26,7 @@ public class ProjectManagerTests
 
         manager.LoadProject(TestFile);
 
-        File.Exists(TestStageFile).Should().BeTrue();
+        FileAssert.Exists(TestStageFile);
     }
 
     [Test]

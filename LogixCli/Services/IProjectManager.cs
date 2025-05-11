@@ -1,6 +1,6 @@
 ﻿using L5Sharp.Core;
 
-namespace L5Shell.Console.Services;
+namespace LogixCli.Services;
 
 public interface IProjectManager
 {

@@ -1,9 +1,9 @@
 ﻿using Cocona;
 using JetBrains.Annotations;
-using L5Shell.Console.Services;
+using LogixCli.Services;
 using Spectre.Console;
 
-namespace L5Shell.Console.Commands;
+namespace LogixCli.Commands;
 
 [PublicAPI]
 public class ProjectCommands(IProjectManager manager, IAnsiConsole console)

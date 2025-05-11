@@ -1,7 +1,7 @@
 using L5Sharp.Core;
 using Spectre.Console;
 
-namespace L5Shell.Console.Services;
+namespace LogixCli.Services;
 
 public class ProjectManager(IAnsiConsole console) : IProjectManager
 {

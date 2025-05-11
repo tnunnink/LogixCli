@@ -1,4 +1,4 @@
-﻿namespace L5Shell.Console.Common;
+﻿namespace LogixCli.Common;
 
 public enum Format
 {
