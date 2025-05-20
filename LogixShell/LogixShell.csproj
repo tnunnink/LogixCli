@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="JetBrains.Annotations" Version="2024.3.0"/>
+        <PackageReference Include="L5Sharp" Version="5.1.0"/>
+        <PackageReference Include="Microsoft.SemanticKernel.Abstractions" Version="1.51.0"/>
+        <PackageReference Include="System.Management.Automation" Version="7.4.7"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="LogixShell.psd1">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="LogixShell.Format.ps1xml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>
